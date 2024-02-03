@@ -1,0 +1,65 @@
+body {
+    margin: 0;
+    background-color: #e2fcef;
+}
+.main {
+    width: 1200px;
+    height: 1000px;
+}
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+span {
+    font-size:150px;
+    font-weight: bold;
+    font-family: 'Fjalla One', sans-serif;
+    margin-bottom: 100px;
+}
+.colorBlock {
+    height: 180px;
+    width: 200px;
+    border: 1px solid gray;
+    margin: 5px;
+    box-shadow: -1px -1px 17px -4px rgba(0,0,0,0.48);
+}
+.Black {
+  background-color: #000000;
+    color: white;
+}
+.Red {
+    background-color: #FF0000;
+    color: white;
+}
+.Green {
+    background-color: #00FF00;
+    color: white;
+}
+.Blue {
+    background-color: #0000FF;
+    color: white;
+}
+.Fuchsia {
+    background-color: #FF00FF;
+    color: white;
+}
+.White {
+    background-color: #FFFFFF;
+}
+.Yellow {
+    background-color: #FFFF00;
+}
+.Purple {
+    background-color: #800080;
+    color: white;
+}
+.Maroon {
+    background-color: #800000;
+    color: white;
+}
+.Olive {
+    background-color: #808000;
+    color: white;
+}
