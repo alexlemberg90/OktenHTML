@@ -18,7 +18,11 @@ span {
     font-family: 'Fjalla One', sans-serif;
     margin-bottom: 100px;
 }
+p {
+    margin: 2px;
+}
 .colorBlock {
+    flex-direction: column;
     height: 180px;
     width: 200px;
     border: 1px solid gray;
