@@ -1,0 +1,16 @@
+
+.siteBackground {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80vw;
+}
+main {
+    display: flex;
+    flex-wrap: wrap;
+}
+img {
+    width: 10vw;
+    height: 10vh;
+}
