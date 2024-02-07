@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Figma learn</title>
+    <style>
+        body {
+            margin: 0;
+            font-size: 45px;
+        }
+
+        header {
+            height: 20vh;
+            background: #9B6F6F;
+            color: white;
+        }
+
+        .flexCenter {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .newsSize {
+            height: 20vh;
+            width: 34vw;
+        }
+
+        .news1 {
+            background: #D9D9D9;
+        }
+
+        .news2 {
+            background: linear-gradient(0deg, #AA9898 0%, #AA9898 100%), linear-gradient(0deg, #AA9898 0%, #AA9898 100%), #AA9898;
+        }
+
+        .news3 {
+            background: #C5BBBB;
+        }
+        .content1 {
+            height: 60vh;
+            width: 33vw;
+            background: #8A8484;
+        }
+        .content2 {
+            height: 60vh;
+            width: 33vw;
+            background: #C0B3B3;
+        }
+        footer {
+            height: 20vh;
+            background: #524B4B;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+<header class="flexCenter">Header</header>
+<main class="flexCenter">
+    <section>
+        <div class="news1 flexCenter newsSize">News-1</div>
+        <div class="news2 flexCenter newsSize">News-2</div>
+        <div class="news3 flexCenter newsSize">News-3</div>
+    </section>
+    <aside class="flexCenter">
+        <div class="content1 flexCenter">Content-1</div>
+        <div class="content2 flexCenter">Content-2</div>
+    </aside>
+</main>
+<footer class="flexCenter">footer</footer>
+</body>
+</html>
