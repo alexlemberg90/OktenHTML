@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Instagram</title>
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+    main {
+        height: 75vh;
+        width: 90vw;
+        border: 2px solid #d7d4d4;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-direction: column;
+        margin-top: 3vh;
+    }
+    input {
+    border: 2px solid #d7d4d4;
+        border-radius: 10px;
+        height: 8vh;
+        width: 60vw;
+        margin: 8px;
+        text-overflow: ellipsis;
+        font-size: 24px;
+    }
+    button {
+        height: 6vh;
+        width: 60vw;
+        margin: 8px;
+        border: none;
+        border-radius: 15px;
+        background: rgb(104, 181, 250);
+        color: white;
+        font-size: 24px;
+    }
+    main a {
+        text-decoration: none;
+        font-size: 24px;
+        color: rgb(55, 81, 133);
+    }
+    main p {
+        font-size: 24px;
+        color: #8A8484;
+    }
+    a img {
+        margin-bottom: -5px;
+        margin-right: 10px;
+    }
+    footer a {
+        text-decoration: none;
+        color: rgb(0, 149, 246);
+
+    }
+    footer {
+    font-size: 24px;
+        height: 15vh;
+        width: 90vw;
+        border: 2px solid #d7d4d4;
+        margin-top: 2vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+    </style>
+</head>
+<body>
+<main>
+    <img src="image/insta.png" alt="instagram">
+    <form>
+        <label>
+            <input type="text" name="userInfo" placeholder="Номер телефону, ім'я користувача або емейл" required><br>
+        </label>
+        <label>
+            <input type="password" name="password" placeholder="Пароль"><br>
+        </label>
+        <button><b>Увійти</b></button>
+    </form>
+    <p class="boltSize"><b>АБО</b></p>
+    <a href="https://www.facebook.com/"><img src="image/icons8-facebook-30.png" alt="facebook"><b>Увійти через Facebook</b></a><br>
+    <a href="#">Забули пароль?</a>
+</main>
+<footer>
+    <b><p>Не маєте облікового запису?<a href="https://www.facebook.com/?stype=lo&deoia=1&jlou=Afe1b6h8i81yNBrbaIseFsDOcu4bqTme0kF7p_HIrmX7Ch7rzW6htcRta7ck35W9IAnHMR_a6YohPQQRQhtta_jxRRyGIn3TQlz7fHvQ3xt08Q&smuh=60266&lh=Ac_RRYy3JhByJagfGmI">  Зареєструйтеся</a></p></b>
+</footer>
+</body>
+</html>
