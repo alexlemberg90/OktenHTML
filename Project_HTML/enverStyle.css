@@ -7,9 +7,15 @@ body {
     width: 80vw;
 }
 
-.flexCenter {
+.flexBetween {
     display: flex;
     justify-content: space-between;
+    align-items: center;
+}
+
+.flexCenter {
+    display: flex;
+    justify-content: center;
     align-items: center;
 }
 
@@ -39,7 +45,7 @@ header {
     color: #5454D4;
 }
 
-.contact {
+.contactUs {
     background: none;
     width: 157px;
     height: 44px;
@@ -48,10 +54,12 @@ header {
     border: 1px solid #FFF;
     border-radius: 5px;
 }
-.contact:hover {
+
+.contactUs:hover {
     color: #5454D4;
     border: 1px solid #5454D4;
 }
+
 .slide1 {
     height: 100vh;
 }
@@ -67,6 +75,7 @@ p {
     letter-spacing: -0.657px;
     color: rgba(255, 255, 255, 0.70);
 }
+
 .slide1 > div > button {
     border: none;
     border-radius: 4px;
@@ -77,6 +86,7 @@ p {
     font-size: 20px;
     font-weight: 700;
 }
+
 .slide1 > div > button:hover {
     background: #5c5cd5;
     box-shadow: 3px 20px 46px -20px rgb(92, 92, 213)
@@ -89,9 +99,11 @@ p {
     justify-content: space-between;
     align-items: start;
 }
+
 .slide2 {
     height: 100vh;
 }
+
 .text > h2 {
     width: 40%;
     font-size: 60px;
@@ -110,4 +122,63 @@ p {
     width: 100%;
     height: 70%;
     margin-top: 5%;
+}
+
+.slide3 {
+    height: 100vh;
+}
+
+.slide3 > h2 {
+    text-align: center;
+    font-size: 60px;
+    font-weight: 400;
+    line-height: 116.667%;
+}
+
+article {
+    width: 80vw;
+    flex-wrap: wrap;
+}
+
+article > div {
+    width: 30%;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 5%;
+}
+
+.circle {
+    width: 69px;
+    height: 69px;
+    border-radius: 50%;
+}
+
+.purple {
+    background: rgba(84, 84, 212, 0.10);
+}
+
+.red {
+    background: rgba(240, 64, 55, 0.10);
+}
+
+.yellow {
+    background: rgba(254, 220, 90, 0.10);
+}
+.slide4 {
+    height: 100vh;
+    flex-direction: column;
+}
+.slide4 > h2 {
+    font-size: 58px;
+    font-weight: 800;
+}
+.slide4 img {
+    width: 30%;
+    box-shadow: 0 0 0 19px #1E1E20;
+    border-radius: 14px;
+}
+.contact {
+    width: 100vw;
+    height: 30%;
+    background: rgba(30, 30, 32, 0.50);
 }
