@@ -1,0 +1,120 @@
+@media screen and (min-width:300px) and (max-width: 500px){
+    body {
+        width: 90vw;
+        padding: 3vh;
+    }
+    .logo {
+        margin: 5vh 0 5vh 0;
+    }
+    .navBar {
+        display: none;
+    }
+    .contactUs {
+        display: none;
+    }
+    .slide1 {
+        margin: 5vh 0 5vh 0;
+        flex-direction: column;
+    }
+    h1 {
+        font-size: 42px;
+        line-height: 150%;
+    }
+
+    p {
+        margin: 5vh 0 5vh 0;
+        font-size: 16px;
+        line-height: 150%;
+    }
+
+    main button {
+        margin: 5vh 0 5vh 0;
+        width: 166px;
+        height: 44px;
+        font-size: 16px;
+    }
+
+    .slide1 img {
+        width: 120%;
+    }
+    .text {
+     flex-direction: column;
+    }
+
+    .slide2 {
+        margin-top: 30vh;
+        height: 70vh;
+    }
+
+    .text > h2 {
+        width: 100%;
+        font-size: 36px;
+        line-height: 150%;
+    }
+
+    .text > p {
+        width: 100%;
+    }
+
+    .slide2 > img {
+        width: 327px;
+        height: 184px;
+        margin-top: 5%;
+    }
+
+    .slide3 {
+        height: 100%;
+    }
+    .slide3 > h2 {
+        text-align: start;
+        font-size: 36px;
+        line-height: 150%;
+    }
+
+    article {
+        flex-direction: column;
+    }
+
+    article > div {
+        width: 100%;
+        margin-top: 30%;
+    }
+    article > div p {
+        margin: 0;
+    }
+    .slide4 {
+        flex-direction: column;
+    }
+    .slide4 > h2 {
+        font-size: 58px;
+        font-weight: 800;
+    }
+    .slide4 img {
+        width: 30%;
+        box-shadow: 0 0 0 19px #1E1E20;
+        border-radius: 14px;
+    }
+    .contactBackground {
+        width: 100vw;
+        height: 30%;
+        background: rgba(30, 30, 32, 0.50);
+    }
+    .contactsBlock {
+        width: 80%;
+    }
+    .contactsBlock > h3 {
+        width: 60%;
+        font-size: 60px;
+        font-weight: 400;
+    }
+    footer {
+        height: 20vh;
+    }
+    footer p {
+        text-align: right;
+        font-size: 16px;
+        font-weight: 400;
+        line-height:237.5%;
+        letter-spacing: -0.5px;
+    }
+}
