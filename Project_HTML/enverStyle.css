@@ -180,7 +180,7 @@ article > div {
 .contactBackground {
     width: 100vw;
     height: 30%;
-    background: rgba(30, 30, 32, 0.50);
+    background: rgba(32, 30, 32, 0.5);
 }
 .contactsBlock {
     width: 80%;
@@ -192,6 +192,9 @@ article > div {
 }
 footer {
     height: 20vh;
+}
+footer p:nth-child(-n+4) {
+    display: none;
 }
 footer p {
     text-align: right;
